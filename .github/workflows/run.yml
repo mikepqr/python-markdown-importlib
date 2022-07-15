@@ -14,5 +14,5 @@ jobs:
     steps:
     - name: Install markdown
       run: pip3 install markdown
-    - name: Make resume
-      run: python3 -c "import markdown"
+    - name: Use importlib.util
+      run: python3 -c "import importlib; print(importlib.util.find_spec)"
